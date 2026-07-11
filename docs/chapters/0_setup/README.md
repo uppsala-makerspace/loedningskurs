@@ -29,6 +29,10 @@ Hitta kopparlockarna.
 
 ![Kopparlockarna](copper_curls.jpg)
 
+Hitta skyddsglasögon.
+
+![Skyddsglasögon](protective_goggles.jpg)
+
 Hitta tännrullen.
 
 ![Tännrullen](tin_roll.jpg)
