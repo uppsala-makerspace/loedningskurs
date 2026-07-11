@@ -4,9 +4,13 @@ Att lägga på musik är enkelt, om du vet hur.
 
 ## 0.1. Att sätta på el
 
-![](no_electricity_yet.jpg)
+I början har du kanske inget el, för att den vita strömfördelare är inte på än. 
 
-![](electricity.jpg)
+![Den vita strömfördelare är inte på](no_electricity_yet.jpg)
+
+Sticka i kontaktet av den vita strömfördelare in eluttaget.
+
+![Den vita strömfördelare är på](electricity.jpg)
 
 ## 0.2. Att hitta den rätta kabel
 
