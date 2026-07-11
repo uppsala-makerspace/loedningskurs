@@ -58,7 +58,7 @@ där (eller: lödning är inte att hetta tänn direkt)
 
 ![Löda under lödningsplatsen](solder_under_wires.jpg)
 
-När motstånderna har blivit het nog, smälter tännen och 
+När motstånderna har blivit het nog, smälter tännen och
 flytter sig själva mellan resitortråderna.
 Tar bort lödningsjärnet.
 
