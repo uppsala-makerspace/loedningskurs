@@ -9,7 +9,7 @@ tags:
 
 # Lödningskurs
 
-![Lödningskurs logo](logo/loedningsskurs_logo.png)
+![Lödningskurs logo](logo/loedningskurs_logo.png)
 
 Den här kurs är en kurs
 bland den [Lördagskurserna](https://uppsala-makerspace.github.io/loerdagskurser/)

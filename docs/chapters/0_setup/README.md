@@ -35,7 +35,7 @@ Hitta tännrullen.
 
 Du kan drar ur tännrullen när du löder.
 
-![Tännrullen som är dragit ner](tin_roll_rolled_down.jpg)
+![Tännrullen som är dragit ner](tin_roll_pulled_down.jpg)
 
 Sätt på ångutsugningen med att vrida knappen till två.
 
