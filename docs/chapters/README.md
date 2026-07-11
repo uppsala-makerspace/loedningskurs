@@ -6,7 +6,8 @@ Här är alla kapitel av lödningskursen.
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
-0  |[Att förbereda](0_setupr/README.md)
+0  |[Att förbereda](0_setup/README.md)
+0  |[Att lägga på musik](0_setup_music/README.md)
 1  |[Din första lödning](1_first_solder/README.md)
 
 <!-- markdownlint-enable MD013 -->
