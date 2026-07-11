@@ -4,7 +4,7 @@ Att lägga på musik är enkelt, om du vet hur.
 
 ## 0.1. Att sätta på el
 
-I början har du kanske inget el, för att den vita strömfördelare är inte på än. 
+I början har du kanske inget el, för att den vita strömfördelare är inte på än.
 
 ![Den vita strömfördelare är inte på](no_electricity_yet.jpg)
 
