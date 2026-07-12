@@ -11,12 +11,15 @@ nav:
     - Översiktet: chapters/README.md
     - 0. Att förbera: chapters/0_setup/README.md
     - 1. Din första lödning: chapters/1_first_solder/README.md
+    - 2. Att löda en Arduino shield: chapters/2_solder_arduino_shield/README.md
+    - 3. Att löda en bare-bone Arduino: chapters/3_solder_bare_bone_arduino/README.md
     - Förord: chapters/foreword/README.md
   - Misc:
     - Att hjälpa med: CONTRIBUTING.md
     - Beteendekod: CODE_OF_CONDUCT.md
     - Kontakta oss: contact_us.md
     - Skripter: scripts/README.md
+    - Att lägga på musik: chapters/0_setup_music/README.md
 
 not_in_nav: |
   scripts/build/*.md
