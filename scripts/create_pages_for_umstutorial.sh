@@ -23,3 +23,9 @@ cp docs/chapters/0_setup_music/README.md docs/chapters/0_setup_music/generated_s
 sed -i '/^---$/,/^---$/d' docs/chapters/0_setup_music/generated_sv.md
 Rscript scripts/replace_rel_url_by_abs_url.R docs/chapters/0_setup_music/generated_sv.md https://uppsala-makerspace.github.io/loedningskurs/chapters/0_setup_music/
 sed -i 's/^# .*$/# Ljudinstallation hos Elverkstan/g' docs/chapters/0_setup_music/generated_sv.md
+
+# Rscript -e 'splimata::split_tabs(input_file_name = "docs/kurserna/README.md", output_file_prefix = "docs/kurserna/generated")'
+cp docs/chapters/0_setup/README.md docs/chapters/0_setup/generated_sv.md
+sed -i '/^---$/,/^---$/d' docs/chapters/0_setup/generated_sv.md
+Rscript scripts/replace_rel_url_by_abs_url.R docs/chapters/0_setup/generated_sv.md https://uppsala-makerspace.github.io/loedningskurs/chapters/0_setup/
+sed -i 's/^# .*$/# Förberedning av att löda/g' docs/chapters/0_setup/generated_sv.md
