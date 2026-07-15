@@ -114,5 +114,3 @@ och testar om det funkar.
 
 Om det funkar, har du klarat av slutuppgiften.
 
-
-
