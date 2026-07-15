@@ -31,7 +31,7 @@ Så här ser det ut på schematiskt vis:
 
 Vi ska göra samma elkrets.
 
-## 2.3. Att löda i din stil
+## 3.2. Att löda i din stil
 
 Vi kann löda en bare-bone Arduino på minst två sätt:
 
@@ -47,71 +47,141 @@ punkt-till-punkt lödning                           |Lödning med en prototype b
 Du får bestämma vad du föredrar.
 I den här fall är punkt-till-punkt lödning lättare.
 
+## 3.3. Att skala en sladd
 
-HIERO
+Med punkt-till-punkt lödning använder man mer sladdor,
+som måste blir skalade.
 
-## 2.3. Att skapa bryggar
+Använder en skalvertyg, t.ex. den här skaltång:
 
-Detta proffsigt exempel använde stel metal
-för att förbinda hålar. Vi kaller denna
-förbindingar 'bryggar'.
+```text
+TODO: picture of the thing
+```
 
-Man kann skapa bryggar av att skära av tråden
-av en motstånd med en avbitartång.
+Lägg tråden i hålet med rätt storlek.
 
-![Att bita av tråden med en avbitartång](pincer.jpg)
 
-## 2.4. Att buga
+```text
+TODO: picture of doing so
+```
 
-En böjtång med platta käftar är bra för att böja kantiga vinklar.
+Med tråden i skaltången, drar av skalen.
+Nu har du en skalad sladd.
 
-![En böjtång med platta käftar](flat_nose_pliers.jpg)
+```text
+TODO: picture of a skalad sladd
+```
 
-En låsringstång är en böjtång för att böja rundningar.
+Ofta man lägger tänn på sladdens spets,
+när sladden blir en enkelt koppling.
+Om sladden blir del av en koppling med flera sladdor,
+lägger man ofta ingen tänn på sladden-
 
-![En låsringstång](round_nose_pliers.jpg)
+```text
+TODO: picture of doing so
+```
 
-## 2.5. Att laga saker
+Om man har lagt tänn på sladdens spets (eller tidigare),
+skär man av en del av sladden för att får rätta längden.
 
-Ibland gör man fel. I så fall är tännsugaren en nyttig redskap.
 
-Tännsugare är ur                       |Tännsugare är in
----------------------------------------|---------------------------------------
-![Tännsugare är ur](taennsugare_ur.jpg)|![Tännsugare är in](taennsugare_in.jpg)
+```text
+TODO: picture of a prepared wire
+```
 
-För att förberada, tryck in kolven av tännsugare. Nu är tännsugare
-redo för att suga bort tänn.
+## 3.4. Att krympa
 
-Hetta tänn du vill suga bort med lödningsjärnet och håll tännsugare åt den
-smältande tänn. Det är inget problem att tännsugaren blir het: den är byggt för
-att motstå detta.
+En fara med punkt-till-punkt lödning är att den blotta delar av sladdar
+nå varann, med risk för kortslutning.
 
-Nar tänn är smältat, tryck på knappen av tännsugaren. Förhoppningsvis,
-om du har hållit tännsugarden rätt (och det kan vara tufft!), blir
-tänn bortsugt. Om du trycker in kolven av tännsugaren kann du ser allt
-tänn som har sugits ur.
+Leta efter den krympslangar.
 
-## 2.6. Att testa
+```text
+TODO: IMAGE OF CRIMP THINGIES
+```
 
-Om du har lödat klar, kann du sätta shielden på Arduinon.
-Ledar all stiftar av shielden i hålar av Arduinon.
-Du behöver inte trycka ner shielden kraftfult:
-om stiftar är halvvägs hålorna funkar det redan.
+Hitta en krympslang som just passar omkring sladder du vill löda.
+Använder en sax för att förkorta detta till den önskade längd.
+Före en lödning, skjut din krympslang over en sladd, så att du kann
+skjuta den över din förbindning efter lödningen.
 
-![Shielden är på Arduino](shield_on_arduino.jpg)
+```text
+TODO: IMAGE OF CRIMP THINGIES IN PLACE ON WIRE
+```
 
-Koppla Arduinon till dator och start Arduino IDE.
-I Arduino IDEn, ladda upp programmet 'Blink'
-(under 'File | Examples | Basic | Blink').
-Om lysdioden blinkar har du klarat detta!
+Löda som vanligt och skjuter krympslangen över förbindingen.
 
-## 2.6. Slutuppgift
+```text
+TODO: IMAGE OF CRIMP THINGIES IN PLACE
+```
 
-Löda elkretsen på shielden i din favoritstil
+Håll kort din lödningsjärn år krympslangen.
+Krympslangen krymper nu tajt om din förbindning.
+
+```text
+TODO: IMAGE OF CRIMP THINGIES IN PLACE
+```
+
+Nu kann du vara säker/säkrare att har ingen kortslutning.
+
+## 3.5. Elförsörjning
+
+För elförsörjning använder vi en USB-A sladd, som vi kann sticka i
+en dator eller adaptorer.
+
+![En USB-A sladd](ubs_a.jpg)
+
+Skär uppet sladden. I sladden finns det tre eller fyra sladdor.
+Den röda sladden bär 5V spänningen. Om det finns en svart sladd:
+den är GND. Om det finns ingen svart sladd, finns det en sladd utan hylsa
+och den är GND istället.
+
+## 3.6. Sockla måste vara tomt under lödningen
+
+Chipsocklan måste var tomt, så att ATmege328P chip blir inte skadat
+av lödningen. I all ritningar är båda socklan och chippen
+ritat med glipan till vänster.
+
+![Chipsocklan är tomt och med glipan till vänster](ic_socket.jpg)
+
+## 3.7. Kristallet är tuffast
+
+Den tuffaste del är att löda kristallet och den två
+kondensatorer. Båda kristallet och kondensatorer
+måste vara nära chipsockla. Räkna noggrant vilka
+ben av chipsocklan du löder!
+
+Med punkt-till-punkt lödning är det här lättare:
+löda en kondensatorer till varje ben av kristallet,
+och efter det, löda kristallet till socklan.
+Den olödade ben av kondensatorer gå båda till GND.
+
+## 3.8. Glöm inte lysdioden
+
+Lysdioden är den ena nyttiga sak vi kopplar till vår bare-bone
+Arduino. Självklart: man kan anvanda fler stiftar och ladd upp
+en mer komplicerat program till chippen.
+
+## 3.9. Att löda mycket sladdor tillsammans
+
+Det är normalt att har fler 5V sladdor och fler GND sladdor.
+
+För att löda dem, skala dem lite längre och -utan tänn- fläkter
+tråderna ihop.
+
+```text
+TODO: pic of this.
+```
+
+Lägg till tänn till alla tråder är lödade.
+
+```text
+TODO: pic of this.
+```
+
+## 3.10. Slutuppgift
+
+Löda en bare-bone Arduino i din favoritstil
 och testar om det funkar.
 
 Om det funkar, har du klarat av slutuppgiften.
-
-
-## 3.x. Slutuppgift
-
