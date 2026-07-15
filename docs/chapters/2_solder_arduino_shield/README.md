@@ -10,7 +10,8 @@ Starta som vanligt:
 - Hitta skyddsglasögon
 - Försäkra att lödningsjärn har en silverspets
 
-Efter det är det dags att hitta en så kallade 'Arduino shield' (SV: 'kild'),
+Efter det är det dags att hitta en så kallade 'Arduino shield'
+('shield' betyder 'sköld' och är uttalad som 'kild'),
 ett kretskort man stoppar i in en Arduino.
 På den shielden lödar man sina elektronik.
 
