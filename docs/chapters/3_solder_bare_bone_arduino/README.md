@@ -52,42 +52,36 @@ I den här fall är punkt-till-punkt lödning lättare.
 Med punkt-till-punkt lödning använder man mer sladdor,
 som måste blir skalade.
 
-Använder en skalvertyg, t.ex. den här skaltång:
+Använder en skalvertyg, t.ex. den här skaltånger:
 
-```text
-TODO: picture of the thing
-```
+![Enkelt skaltång](stripping_pliers_1.jpg)
+
+![Hjälpande skaltång](stripping_pliers_2.jpg)
 
 Lägg tråden i hålet med rätt storlek.
 
 
-```text
-TODO: picture of doing so
-```
+![Lägg tråden i hålet med rätt storlek](stripping_wire_before.jpg)
 
 Med tråden i skaltången, drar av skalen.
 Nu har du en skalad sladd.
 
-```text
-TODO: picture of a skalad sladd
-```
+![En skalad sladd](stripped_wire.jpg)
 
 Ofta man lägger tänn på sladdens spets,
 när sladden blir en enkelt koppling.
+
+![Tänn på sladdens spets](stripped_wire_short_strip_with_tin.jpg)
+
 Om sladden blir del av en koppling med flera sladdor,
 lägger man ofta ingen tänn på sladden-
 
-```text
-TODO: picture of doing so
-```
+![Ingen tänn på sladdens](stripped_wire_long_strip.jpg)
 
 Om man har lagt tänn på sladdens spets (eller tidigare),
 skär man av en del av sladden för att får rätta längden.
 
-
-```text
-TODO: picture of a prepared wire
-```
+![Skärad sladd](stripped_wire_short_strip_tin_cut_short.jpg)
 
 ## 3.4. Att krympa
 
@@ -96,31 +90,23 @@ nå varann, med risk för kortslutning.
 
 Leta efter den krympslangar.
 
-```text
-TODO: IMAGE OF CRIMP THINGIES
-```
+![Låda med krympslangar](heat_shrink_tubing_box_open.jpg)
 
 Hitta en krympslang som just passar omkring sladder du vill löda.
 Använder en sax för att förkorta detta till den önskade längd.
 Före en lödning, skjut din krympslang over en sladd, så att du kann
 skjuta den över din förbindning efter lödningen.
 
-```text
-TODO: IMAGE OF CRIMP THINGIES IN PLACE ON WIRE
-```
+![Sladd med krympslanga](wire_with_shrink_tube.jpg)
 
 Löda som vanligt och skjuter krympslangen över förbindingen.
 
-```text
-TODO: IMAGE OF CRIMP THINGIES IN PLACE
-```
+![Två sladdor med en krympsladd över förbindningen](two_wires_one_shrink_tube_over_solder.jpg)
 
 Håll kort din lödningsjärn år krympslangen.
 Krympslangen krymper nu tajt om din förbindning.
 
-```text
-TODO: IMAGE OF CRIMP THINGIES IN PLACE
-```
+![Krympslangen krymper tajt om din förbindning](crimping_4.jpg)
 
 Nu kann du vara säker/säkrare att har ingen kortslutning.
 
@@ -169,15 +155,15 @@ Det är normalt att har fler 5V sladdor och fler GND sladdor.
 För att löda dem, skala dem lite längre och -utan tänn- fläkter
 tråderna ihop.
 
-```text
-TODO: pic of this.
-```
+![Tre fläktade sladdor](three_wires_braided.jpg)
 
 Lägg till tänn till alla tråder är lödade.
 
-```text
-TODO: pic of this.
-```
+![Tre fläktade sladdor med tänn](three_wires_braided_and_tinned.jpg)
+
+Också här använder man krympslang för att skydda emot kortslutning.
+
+![Krympslanga skyddar förbindingen](three_wires_braided_and_tinned_and_crimped_and_cut_short.jpg)
 
 ## 3.10. Slutuppgift
 
